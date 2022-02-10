@@ -344,8 +344,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .main-banner{
-	height: 100%;
-	position: relative;
+    position: relative;
 }
 
 .main-banner{
@@ -365,10 +364,15 @@ a img.aligncenter {
     opacity: .6;
 }
 .heading{
-	color: #fff;
+	color: black;
 	display: table-cell;
 	vertical-align: middle;
-	position: relative;
+    text-align: center;
+	position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
 	z-index: 1;
 }
 .heading h1{

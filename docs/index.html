@@ -82,9 +82,19 @@
             left: -300%;
         }
         95% {
-            left: -300%
+            left: -300%;
         }
-    }
+    }    
+	@media (max-width:629px) {    	    
+		img#optionalstuff {
+			    display: none;      
+		}           
+	}
+	@media (min-width:629px){  
+		img#nonoptionalstuff{
+			display: none;      
+		}
+	}
 </style>
 	</head>
 
@@ -136,14 +146,21 @@
 
     <section class="main-banner parallaxie">
         <div id="slider">
-		<figure>
-			<img src="uploads/banner-01.jpg">
-			<img src="uploads/banner-02.jpg">
-			<img src="uploads/banner-03.jpg">
-			<img src="uploads/banner-04.jpg">
-			<img src="uploads/banner-01.jpg">
-		</figure>
-        </div>
+            <figure>
+                <!-- For Phone users -->
+                <img id="nonoptionalstuff" src="uploads/banner-01.jpg">
+                <img id="nonoptionalstuff" src="uploads/banner-02.jpg">
+                <img id="nonoptionalstuff" src="uploads/banner-03.jpg">
+                <img id="nonoptionalstuff" src="uploads/banner-04.jpg">
+                <img id="nonoptionalstuff" src="uploads/banner-01.jpg">                
+                <!-- For Desktop users -->
+                <img id="optionalstuff" src="uploads/Desk-banner-01.jpg">
+                <img id="optionalstuff" src="uploads/Desk-banner-02.jpg">
+                <img id="optionalstuff" src="uploads/Desk-banner-03.jpg">
+                <img id="optionalstuff" src="uploads/Desk-banner-04.jpg">
+                <img id="optionalstuff" src="uploads/Desk-banner-01.jpg">                
+            </figure>
+	    </div>
 	    <div class="heading">
             <h1>Howdy🤠! It's Younis</h1>
             <p>"Business planner with tremendous capabilities<br />in Marketing, Embedded Systems, and Financing."</p>

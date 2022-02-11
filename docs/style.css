@@ -571,13 +571,13 @@ xclip
 
 
 .btn-hover-new{
-	color: #333333;
+	background-color: #333333;
+    color: #ffffff;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	position: relative;
-	border: 1px solid #333333;
 	overflow: hidden;
 	padding: 0px 18px;
 	display: inline-block;
@@ -617,10 +617,11 @@ xclip
 }
 
 .btn-hover-new:hover{
-	background-color: #333333;
+	border: 1px solid #333333;
+    background-color: #ffffff;
 }
 .btn-hover-new:hover > span {
-    color: #ffffff;
+    color: #333333;
     -webkit-transform: translate(0px,40px);
     transform: translate(0px,40px);
 }
